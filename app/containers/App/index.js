@@ -32,7 +32,7 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - p.oven"
+        titleTemplate="%s - an oven story"
         defaultTitle="The p.oven Website"
       >
         <meta name="description" content="A Website for the world famous p.oven" />

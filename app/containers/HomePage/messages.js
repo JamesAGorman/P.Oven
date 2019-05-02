@@ -9,13 +9,13 @@ export const scope = 'boilerplate.containers.HomePage';
 
 export default defineMessages({
   startProjectHeader: {
-    id: `${scope}.start_project.header`,
-    defaultMessage: 'react project in seconds',
+    id: `${scope}.welcome.header`,
+    defaultMessage: 'Welcome to the p.oven Website',
   },
   startProjectMessage: {
-    id: `${scope}.start_project.message`,
+    id: `${scope}.welcome.message`,
     defaultMessage:
-      'p.oven is the best company',
+      'We threw this together for the laugh have a look around',
   },
   trymeHeader: {
     id: `${scope}.tryme.header`,
