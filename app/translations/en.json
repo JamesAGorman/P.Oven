@@ -30,5 +30,23 @@
   "boilerplate.containers.HomePage.tryme.message": "Show Github repositories by",
   "boilerplate.containers.LocaleToggle.de": "de",
   "boilerplate.containers.LocaleToggle.en": "en",
-  "boilerplate.containers.NotFoundPage.header": "Page not found."
+  "boilerplate.containers.NotFoundPage.header": "Page not found.",
+  "boilerplate.containers.StoryPage.css.header": "The p.oven Story",
+  "boilerplate.containers.StoryPage.css.message": "Next generation pizza oven",
+  "boilerplate.containers.StoryPage.feedback.header": "Instant feedback",
+  "boilerplate.containers.StoryPage.feedback.message": "Enjoy the best DX and code your app at the speed of thought! Your\n    saved changes to the CSS and JS are reflected instantaneously\n    without refreshing the page. Preserve application state even when\n    you update something in the underlying code!",
+  "boilerplate.containers.StoryPage.header": "The Story",
+  "boilerplate.containers.StoryPage.internationalization.header": "Complete i18n Standard Internationalization & Pluralization",
+  "boilerplate.containers.StoryPage.internationalization.message": "Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.",
+  "boilerplate.containers.StoryPage.javascript.header": "Next generation JavaScript",
+  "boilerplate.containers.StoryPage.javascript.message": "Use template strings, object destructuring, arrow functions, JSX\n    syntax and more, today.",
+  "boilerplate.containers.StoryPage.network.header": "Offline-first",
+  "boilerplate.containers.StoryPage.network.message": "The next frontier in performant web apps: availability without a\n      network connection from the instant your users load the app.",
+  "boilerplate.containers.StoryPage.routing.header": "Industry-standard routing",
+  "boilerplate.containers.StoryPage.routing.message": "Write composable CSS that's co-located with your components for\n    complete modularity. Unique generated class names keep the\n    specificity low while eliminating style clashes. Ship only the\n    styles that are on the page for the best performance.",
+  "boilerplate.containers.StoryPage.intro.header": "Quick pizzas, quicker hats",
+  "boilerplate.containers.StoryPage.intro.message": "From humble beginnings...",
+  "boilerplate.containers.StoryPage.state_management.header": "Predictable state management",
+  "boilerplate.containers.StoryPage.state_management.message": "Unidirectional data flow allows for change logging and time travel\n    debugging."
+
 }
