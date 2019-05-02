@@ -25,6 +25,7 @@ function Button(props) {
   if (props.handleRoute) {
     button = (
       <StyledButton onClick={props.handleRoute}>
+      <div>hello</div>
         {Children.toArray(props.children)}
       </StyledButton>
     );

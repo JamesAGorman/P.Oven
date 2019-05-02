@@ -19,7 +19,16 @@ function Header() {
           <FormattedMessage {...messages.home} />
         </HeaderLink>
         <HeaderLink to="/features">
-          <FormattedMessage {...messages.features} />
+          <FormattedMessage {...messages.story} />
+        </HeaderLink>
+        <HeaderLink to="/features">
+          <FormattedMessage {...messages.merch} />
+        </HeaderLink>
+        <HeaderLink to="/features">
+          <FormattedMessage {...messages.people} />
+        </HeaderLink>
+        <HeaderLink to="/features">
+          <FormattedMessage {...messages.game} />
         </HeaderLink>
       </NavBar>
     </div>

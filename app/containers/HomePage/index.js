@@ -60,10 +60,10 @@ export function HomePage({
   return (
     <article>
       <Helmet>
-        <title>Home Page</title>
+        <title>p.oven</title>
         <meta
           name="description"
-          content="A React.js Boilerplate application homepage"
+          content="A p.oven homepage"
         />
       </Helmet>
       <div>

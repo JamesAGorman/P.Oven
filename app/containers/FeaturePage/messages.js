@@ -14,7 +14,7 @@ export default defineMessages({
   },
   scaffoldingHeader: {
     id: `${scope}.scaffolding.header`,
-    defaultMessage: 'Quick scaffolding',
+    defaultMessage: 'p.oven',
   },
   scaffoldingMessage: {
     id: `${scope}.scaffolding.message`,
