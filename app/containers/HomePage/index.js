@@ -26,7 +26,6 @@ import CenteredSection from './CenteredSection';
 import Form from './Form';
 import Input from './Input';
 import Section from './Section';
-import TransSection from './TransSection'
 import messages from './messages';
 import { loadRepos } from '../App/actions';
 import { changeUsername } from './actions';
