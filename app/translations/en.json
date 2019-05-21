@@ -47,6 +47,9 @@
   "boilerplate.containers.StoryPage.intro.header": "Quick pizzas, quicker hats",
   "boilerplate.containers.StoryPage.intro.message": "From humble beginnings...",
   "boilerplate.containers.StoryPage.state_management.header": "Predictable state management",
-  "boilerplate.containers.StoryPage.state_management.message": "Unidirectional data flow allows for change logging and time travel\n    debugging."
+  "boilerplate.containers.StoryPage.state_management.message": "Unidirectional data flow allows for change logging and time travel\n    debugging.",
+  "boilerplate.containers.MerchPage.header": "The Merch",
+  "boilerplate.containers.MerchPage.intro.header": "Come and get your haaaaaaats",
+  "boilerplate.containers.MerchPage.intro.message": "Come and get your hats,\n Come and get your hats, Come and get your hats now!"
 
 }
