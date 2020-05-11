@@ -24,7 +24,7 @@ function Header() {
         <HeaderLink to="/merch">
           <FormattedMessage {...messages.merch} />
         </HeaderLink>
-        <HeaderLink to="/features">
+        <HeaderLink to="/people">
           <FormattedMessage {...messages.people} />
         </HeaderLink>
         <HeaderLink to="/features">

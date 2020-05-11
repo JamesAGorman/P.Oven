@@ -1,7 +1,7 @@
 /*
- * FeaturePage
+ * PeoplePage
  *
- * List all the features
+ * List all the people
  */
 import React from 'react';
 import { Helmet } from 'react-helmet';
