@@ -12,17 +12,15 @@ import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
+import PeoplePage from 'containers//PeoplePage/Loadable';
 import StoryPage from 'containers//StoryPage/Loadable';
 import MerchPage from 'containers//MerchPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
+import Background from './psnow.jpg';
 import GlobalStyle from '../../global-styles';
-
-import Background from 'psnow.jpg';
-
 
 const AppWrapper = styled.div`
   max-width: calc(1024px + 16px * 5);
@@ -36,12 +34,11 @@ const AppWrapper = styled.div`
 const BackgroundImage = styled.div`
   background-size: cover;
   background-image: url(${Background});
-  background-color: #cccccc; 
-  height: 1100px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-color: #cccccc;
+  height: 1100px;
+  background-position: center;
+  background-repeat: no-repeat;
 `;
-
 
 export default function App() {
   return (
@@ -51,12 +48,15 @@ export default function App() {
           titleTemplate="%s - an oven story"
           defaultTitle="The p.oven Website"
         >
-          <meta name="description" content="A Website for the world famous p.oven" />
+          <meta
+            name="description"
+            content="A Website for the world famous p.oven"
+          />
         </Helmet>
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/features" component={FeaturePage} />
+          <Route path="/people" component={PeoplePage} />
           <Route path="/story" component={StoryPage} />
           <Route path="/merch" component={MerchPage} />
           <Route path="" component={NotFoundPage} />

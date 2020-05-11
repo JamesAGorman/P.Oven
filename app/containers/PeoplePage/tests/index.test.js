@@ -2,15 +2,15 @@ import React from 'react';
 import { render } from 'react-testing-library';
 import { IntlProvider } from 'react-intl';
 
-import FeaturePage from '../index';
+import PeoplePage from '../index';
 
-describe('<FeaturePage />', () => {
+describe('<PeoplePage />', () => {
   it('should render its heading', () => {
     const {
       container: { firstChild },
     } = render(
       <IntlProvider locale="en">
-        <FeaturePage />
+        <PeoplePage />
       </IntlProvider>,
     );
 

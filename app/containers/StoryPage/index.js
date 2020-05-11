@@ -35,7 +35,7 @@ export default function StoryPage() {
             <FormattedMessage {...messages.introMessage} />
           </p>
         </ListItem>
-
+        {/* 
         <ListItem>
           <ListItemTitle>
             <FormattedMessage {...messages.feedbackHeader} />
@@ -70,7 +70,7 @@ export default function StoryPage() {
           <p>
             <FormattedMessage {...messages.intlMessage} />
           </p>
-        </ListItem>
+        </ListItem> */}
       </List>
     </div>
   );
